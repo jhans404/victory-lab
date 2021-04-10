@@ -1,0 +1,64 @@
+body{
+  background-color: #EDEDED;
+}
+
+.App {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 20vh;
+}
+
+.Banner {
+    background-image: url('./img/nyc-skyline.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 25vh;
+    margin: 0;
+}
+
+.Footer {
+    min-height: 10vh;
+    margin: 0;
+    background-color: #5959e0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: white;
+}
+
+.FooterContent {
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    margin: 0 auto;
+}
+.FooterContent h4 {
+    font-size: 1.25em;
+}
+.FooterContent ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 2em;
+}
+.FooterContent li {
+    margin: 0 0.5em;
+    display: inline;
+}
+.FooterContent a {
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px dotted white;
+}
+
+.visCard {
+    width: calc(30vw - 4em);
+    margin: 1em;
+    padding-bottom: 2em;
+    display: inline-block;
+    background-color: white;
+    border-radius: 3px;
+    padding: 1em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
